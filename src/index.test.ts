@@ -1,8 +1,8 @@
-import { helloworld } from './index'
+import { App } from "./index"
 
-describe('helloworld()', () => {
+describe('App.start()', () => {
   it('should return the correct message when called', () => {
-    expect(helloworld()).toBe('Hello WORLD!')
+    expect(App.start()).toBe('Hello WORLD!')
   })
 
 })

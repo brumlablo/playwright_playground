@@ -1,8 +1,11 @@
-const world = 'world';
+import { helloworld } from "./hello";
 
-function hello(whom: string = world): string {
-  return `Hello ${whom}!`;
+export class App {
+  public static start() {
+    return helloworld();
+  }
 }
 
-export let helloworld = () : string => hello(world.toUpperCase());
-console.log(helloworld)
+App.start()
+
+

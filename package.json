@@ -1,4 +1,6 @@
 {
+  "name": "playwright_playground",
+  "version": "1.0.0",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.10",
@@ -12,7 +14,10 @@
   },
   "scripts": {
     "build": "rimraf ./build && tsc",
+    "dev": "npm run build && node build/index.js",
     "lint": "eslint ./src/**/.ts",
-    "start": "npm run build && node build/index.js"
+    "start": "npm run build && node build/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
   }
 }
