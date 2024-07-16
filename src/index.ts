@@ -1,15 +1,12 @@
-/* eslint-disable no-undef */
-import { helloworld } from "./hello";
+// import { helloworld } from "./hello";
 
 export class App {
   public static start() {
-    return helloworld();
+    return "Hello World";
   }
 }
 
 console.log(App.start())
-
-document.body.textContent = App.start()
 // document.addEventListener("DOMContentLoaded", function() {
 //   sayHello();
 // });
