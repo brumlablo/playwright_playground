@@ -9,6 +9,7 @@ export class App {
 
 console.log(App.start())
 
+document.body.textContent = App.start()
 // document.addEventListener("DOMContentLoaded", function() {
 //   sayHello();
 // });
