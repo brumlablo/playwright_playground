@@ -1,0 +1,5 @@
+tutorial helps:
+
+https://khalilstemmler.com/blogs/typescript/node-starter-project/
+https://pkief.medium.com/how-to-debug-typescript-with-vs-code-9cec93b4ae56
+https://ellen-park.medium.com/how-to-createyour-first-project-with-typescript-950dcfd77f83
