@@ -1,8 +1,8 @@
 const world = 'world';
 
-export function hello(whom: string = world): string {
-  return `Hello ${whom}! `;
+function hello(whom: string = world): string {
+  return `Hello ${whom}!`;
 }
 
-let helloworld = () : string => hello(world);
+export let helloworld = () : string => hello(world.toUpperCase());
 console.log(helloworld)
